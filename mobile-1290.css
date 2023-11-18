@@ -1,0 +1,244 @@
+@media screen and (max-width:1290px) {
+    .main__info {
+        flex-direction: column;
+        position: absolute;
+        gap: 20px;
+    }
+
+    .main__text {
+        width: 100%;
+        gap: 3.10vw;
+    }
+
+    .main__text h1 {
+        width: 90%;
+    }
+
+    .main__text p {
+        width: 100%;
+    }
+
+    .main__button {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        left: 0px;
+        height: 21px;
+        position: absolute;
+        margin-top: 26.98vw;
+    }
+
+
+    #id2 {
+        display: none;
+    }
+
+    #id1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main__img {
+        flex-direction: row;
+        position: static;
+        margin-top: 31.01vw;
+        width: 100%;
+        height: 38.76vw;
+    }
+
+    .about {
+        margin-top: 4.65vw;
+        margin-bottom: 4.65vw;
+        flex-direction: column;
+    }
+
+    .about__left {
+        width: 100%;
+    }
+
+    .about__left h1 {
+        width: 100%;
+    }
+
+    .about__text {
+        width: 100%;
+    }
+
+    .about p {
+        width: 100%;
+    }
+
+
+    .steps {
+        flex-direction: column;
+        margin-bottom: 4.65vw;
+    }
+
+    .steps__left {
+        width: 100%;
+    }
+
+    .steps__left h1 {
+        width: 100%;
+    }
+
+    .steps__text {
+        width: 100%;
+    }
+
+    .steps p {
+        width: 100%;
+    }
+
+    .projects {
+        margin-bottom: 4.65vw;
+    }
+
+    .testimonials {
+        margin-bottom: 4.65vw;
+    }
+
+    .testimonials__info {
+        width: 90%;
+    }
+
+    .testimonials__info p {
+        width: 100%;
+    }
+
+    .testimonials__item {
+        gap: 10px;
+    }
+
+    .testimonials__item svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .testimonials__info {
+        gap: 10px;
+    }
+
+    .form__img {
+        display: none;
+    }
+
+    .form__text {
+        margin-bottom: 4.03vw;
+    }
+
+    .form {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 4.65vw;
+    }
+
+    .form__input input {
+        height: 2.40vw;
+    }
+
+    .footer__right {
+        width: 18.14vw;
+    }
+
+    /*sss*/
+    .header__nav a {
+        font-size: 1.40vw;
+    }
+
+    .header__phone a {
+        font-size: 1.40vw;
+    }
+
+    .main__text h1 {
+        font-size: 5.58vw;
+    }
+
+    .main__text p {
+        font-size: 1.55vw;
+    }
+
+    .main__button a {
+        font-size: 1.40vw;
+    }
+
+    .about__left h1 {
+        font-size: 3.72vw;
+    }
+
+    .about__text p {
+        font-size: 1.24vw;
+    }
+
+    .about__info-item h1 {
+        font-size: 2.79vw;
+    }
+
+    .about__info-item p {
+        font-size: 1.24vw;
+    }
+
+    .steps__left h1 {
+        font-size: 3.72vw;
+    }
+
+    .steps__text p {
+        font-size: 1.24vw;
+    }
+
+    .steps__info-item h1 {
+        font-size: 2.79vw;
+    }
+
+    .steps__info-item p {
+        font-size: 1.24vw;
+    }
+
+    .projects__text h1 {
+        font-size: 3.72vw;
+    }
+
+    .testimonials__text h1 {
+        font-size: 3.72vw;
+    }
+
+    .testimonials__info h1 {
+        font-size: 1.40vw;
+    }
+
+    .testimonials__info p {
+        font-size: 1.24vw;
+    }
+
+    .form__text h1 {
+        font-size: 3.72vw;
+    }
+
+    .form__text p {
+        font-size: 1.24vw;
+    }
+
+    .form__input p {
+        font-size: 1.24vw;
+    }
+
+    .form__button p {
+        font-size: 1.24vw;
+    }
+
+    .footer__left p {
+        font-size: 1.40vw;
+    }
+
+    .footer__center p {
+        font-size: 1.24vw;
+    }
+
+    .footer__right p {
+        font-size: 1.40vw;
+    }
+
+}

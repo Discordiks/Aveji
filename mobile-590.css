@@ -1,0 +1,298 @@
+@media screen and (max-width:590px) {
+    .main__img {
+        max-width: 98.31vw;
+    }
+
+    .W {
+        width: 98.31vw;
+    }
+
+    .WW {
+        width: 100%;
+    }
+
+    .main p {
+        width: 100%;
+    }
+
+    .main__info {
+        width: 90%;
+    }
+
+    .about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .steps {
+        margin-bottom: 30px;
+    }
+
+    .projects {
+        margin-bottom: 30px;
+    }
+
+    .testimonials {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        margin-bottom: 30px;
+    }
+
+    .about__right {
+        gap: 24px;
+    }
+
+    .about__info {
+        gap: 12px;
+    }
+
+    .about__text {
+        margin-top: 12px;
+        gap: 8px;
+    }
+
+    .steps__right {
+        gap: 20px;
+    }
+
+    .steps__info-item {
+        gap: 8px;
+    }
+
+    .steps__info {
+        gap: 12px;
+    }
+
+    .projects {
+        gap: 0px;
+    }
+
+    .testimonials {
+        gap: 12px;
+    }
+
+    .form__text {
+        gap: 8px;
+    }
+
+    .form__button {
+        margin-bottom: 20px;
+    }
+
+    .header {
+        margin-bottom: 12px;
+    }
+
+    .header__left svg {
+        width: 6.61vw;
+        height: 6.95vw;
+    }
+
+    .header__right {
+        width: 4.07vw;
+    }
+
+    .header__burger {
+        display: block;
+
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .main__button {
+        margin-top: 20.34vw;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__left {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .testimonials__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1.69vw;
+    }
+
+    .testimonials__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5.42vw;
+
+        width: 100%;
+        height: 37.29vw;
+        flex-shrink: 0;
+        border: 0.17vw solid #000;
+        background: #FFF;
+    }
+
+    .testimonials__item svg {
+        width: 5.42vw;
+        height: 5.42vw;
+    }
+
+    .testimonials__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3.39vw;
+    }
+
+    .testimonials__info h1 {
+        color: var(--text-main, #212529);
+        font-feature-settings: 'clig' off, 'liga' off;
+        margin: 0;
+        font-family: HelveticaRegular;
+        font-family: Helvetica;
+        font-size: 2.71vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .testimonials__info p {
+        color: var(--text-main, #212529);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        margin: 0;
+        font-size: 2.37vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    .steps__info-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*sss*/
+
+    .main__text h1 {
+        font-size: 3.73vw;
+    }
+
+    .main__text p {
+        font-size: 2.03vw;
+    }
+
+    .main__button a {
+        font-size: 2.37vw;
+    }
+
+    .about__left h1 {
+        font-size: 3.05vw;
+    }
+
+    .about__text p {
+        font-size: 2.03vw;
+    }
+
+    .about__info-item h1 {
+        font-size: 2.37vw;
+    }
+
+    .about__info-item p {
+        font-size: 2.03vw;
+    }
+
+    .steps__left h1 {
+        font-size: 3.39vw;
+    }
+
+    .steps__text p {
+        font-size: 2.03vw;
+    }
+
+    .steps__info-item h1 {
+        font-size: 3.39vw;
+    }
+
+    .steps__info-item p {
+        font-size: 2.03vw;
+    }
+
+    .projects__text h1 {
+        font-size: 3.39vw;
+    }
+
+    .testimonials__text h1 {
+        font-size: 3.39vw;
+    }
+
+    .form__text h1 {
+        font-size: 3.39vw;
+    }
+
+    .form__text p {
+        font-size: 2.03vw;
+    }
+
+    .form__input p {
+        font-size: 2.03vw;
+    }
+
+    .form__button p {
+        font-size: 2.03vw;
+    }
+
+    .footer__left p {
+        font-size: 2.03vw;
+    }
+
+    .footer__center p {
+        font-size: 2.03vw;
+    }
+
+    .footer__right p {
+        font-size: 2.03vw;
+    }
+
+    .projects__img {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.25rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        align-items: stretch;
+        scroll-padding: 1.25rem;
+        scroll-snap-type: x mandatory;
+    }
+
+    .projects__img-item {
+        flex-shrink: 0;
+    }
+}
