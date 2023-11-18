@@ -11,13 +11,20 @@
 body {
     margin: 0 auto;
     font-family: Roboto-Regular;
-    width: 90%;
+    width: 1376px;
+}
+
+.W {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*header*/
 .header {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 
     margin: 0;
@@ -33,7 +40,9 @@ body {
 .header__right {
     display: flex;
     flex-direction: row;
-    gap: 207px;
+    justify-content: space-between;
+
+    width: 445px;
 }
 
 .header__nav {
@@ -64,10 +73,20 @@ body {
 
 /*main*/
 .main {
-    display: grid;
-    /*grid-template-columns: repeat(18, 1fr);*/
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0;
     margin-bottom: 120px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1376px;
+    position: absolute;
 }
 
 .main__text {
@@ -76,10 +95,7 @@ body {
     gap: 40px;
 }
 
-.main__info {
-    display: grid;
-    justify-content: space-between;
-}
+
 
 .main__text h1 {
     color: var(--text-main, #212529);
@@ -91,6 +107,7 @@ body {
     line-height: 120%;
     text-transform: uppercase;
     margin: 0;
+    width: 794px;
 }
 
 .main__text p {
@@ -101,11 +118,14 @@ body {
     font-weight: 400;
     line-height: 140%;
     margin: 0;
+    width: 445px;
 }
 
 .main__button {
     display: flex;
     align-items: end;
+    height: 258px;
+    width: 164px;
 }
 
 .main__button a {
@@ -119,19 +139,21 @@ body {
 }
 
 .main__img {
-    display: grid;
-    grid-template-columns: 329px 678px;
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: end;
+    position: relative;
+    top: 298px;
 }
 
 /*about*/
 .about {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 135px;
-
+    justify-content: space-between;
+    margin-top: 418px;
+    /*298+120*/
     margin-bottom: 120px;
 }
 
@@ -148,6 +170,7 @@ body {
     font-weight: 400;
     line-height: normal;
     margin: 0;
+    width: 562px;
 }
 
 .about__right {
@@ -214,8 +237,7 @@ body {
 .steps {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 140px;
+    justify-content: space-between;
 
     margin-bottom: 120px;
 }
@@ -303,12 +325,20 @@ body {
 .projects {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    justify-content: space-between;
+    gap: 20px;
 
     margin-bottom: 120px;
 }
 
-.projects h1 {
+.projects__text {
+    display: flex;
+    align-items: start;
+
+    margin-bottom: 12px;
+}
+
+.projects__text h1 {
     color: var(--text-main, #212529);
     font-feature-settings: 'clig' off, 'liga' off;
     margin: 0;
@@ -322,7 +352,8 @@ body {
 .projects__img {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -330,20 +361,26 @@ body {
 .testimonials {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 32px;
     flex-wrap: wrap;
 
     margin-bottom: 120px;
 }
 
+.testimonials__text {
+    display: flex;
+    align-items: start;
+}
+
 .testimonials__img {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.testimonials h1 {
+.testimonials__text h1 {
     color: var(--text-main, #212529);
     font-feature-settings: 'clig' off, 'liga' off;
     margin: 0;
@@ -384,7 +421,7 @@ body {
     font-family: Helvetica;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -404,7 +441,7 @@ body {
 .form {
     display: flex;
     flex-direction: row;
-    gap: 136px;
+    justify-content: space-between;
 
     margin-bottom: 120px;
 }
@@ -506,7 +543,9 @@ body {
 .form__apps {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    justify-content: space-between;
+
+    width: 250px;
 }
 
 .footer {
@@ -548,7 +587,9 @@ body {
 .footer__right {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    justify-content: space-between;
+
+    width: 234px;
 }
 
 .footer__right p {
