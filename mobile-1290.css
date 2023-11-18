@@ -1,4 +1,12 @@
 @media screen and (max-width:1290px) {
+    .WW {
+        width: 100%;
+    }
+
+    .W {
+        width: 98.31vw;
+    }
+
     .main__info {
         flex-direction: column;
         position: absolute;
@@ -11,7 +19,7 @@
     }
 
     .main__text h1 {
-        width: 90%;
+        width: 100%;
     }
 
     .main__text p {
@@ -136,8 +144,28 @@
         margin-bottom: 4.65vw;
     }
 
+    .main__text {
+        width: 90%;
+    }
+
+    .main__info {
+        width: 90%;
+    }
+
+    .main__text p {
+        width: 90%;
+    }
+
     .form__input input {
         height: 2.40vw;
+    }
+
+    .form__input input {
+        width: 98%;
+    }
+
+    .form__name {
+        width: 100%;
     }
 
     .footer__right {
@@ -155,6 +183,7 @@
 
     .main__text h1 {
         font-size: 5.58vw;
+
     }
 
     .main__text p {

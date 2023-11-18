@@ -261,6 +261,14 @@
         font-size: 2.03vw;
     }
 
+    .form__input input {
+        width: 100%;
+    }
+
+    .form__name {
+        width: 100%;
+    }
+
     .form__input p {
         font-size: 2.03vw;
     }
